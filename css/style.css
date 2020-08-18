@@ -99,55 +99,75 @@ hr {
   border: 0.5px solid #333;
 }
 
-.floating img{
-  position: absolute;
-  width: 200%;
-  z-index: 1;
+.container-info{
+  height: 600px;
+
+  width: 100%;
+
 }
 
 .floating {
-  position: relative;
+
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1200px 1000px;
+  width:100%;
+  text-align: center;
+
 }
+
+
 .img_text {
   display: grid;
-  grid-template-columns: 50% 50% 50% 50%;
-  grid-template-rows: 500px 500px;
-  position: absolute;
-  margin-top: 30%;
-  z-index: 3;
-  padding-bottom: 100%;
+  grid-template-columns:(8*60px);
+  grid-template-rows: 250px 480px 300px; 
+  width: 70%;
+  margin-left: 300px;
+
+}
+
+.text1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+
 }
 
 .text2 {
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 .text3 {
   grid-column: 3/4;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 
 .text4 {
   grid-column: 4/5;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 
 .text5 {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 .text6 {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 .text7 {
   grid-column: 3/4;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 .text8 {
   grid-column: 4/5;
-  grid-row: 2/3;
+  grid-row: 3/4;
+} 
+
+.img_text p{
+  text-align: left;
+  margin:0 10px;
 }
