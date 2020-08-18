@@ -98,3 +98,9 @@ hr {
   margin-right: 35%;
   border: 0.5px solid #333;
 }
+
+.floating img{
+  position: absolute;
+  left: 450px;
+  width: 50%;
+}
