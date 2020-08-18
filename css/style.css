@@ -1,10 +1,21 @@
 *{
-  border: 1px solid red;
+
 }
 
 .normal-font{
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+header {
+    position: sticky;
+    margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
@@ -13,10 +24,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
-  position: sticky;
+  background-color: white;
+
 }
 
-nav button[type="button"] {
+
+nav button {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 30px;
@@ -31,7 +44,9 @@ nav img {
   width: 250px;
   height: 100%;
 }
-
+main {
+  margin-top: 100px;
+}
 .buttons_top{
   margin-right: 60px;
 }
@@ -41,8 +56,7 @@ nav img {
 }
 
 .main_picture_box {
-  margin: auto;
-  width: 50%;
+  margin-top: 60px;
 }
 .main_picture_box img{
   height: 100%;
@@ -61,4 +75,26 @@ nav img {
 
 .container-article{
   grid-column-start: 2;
+}
+
+.flex {
+  display: flex;
+}
+
+.Center {
+  margin: auto;
+  width: 50%;
+}
+
+.Subscribe {
+  text-align: center;
+}
+.Subscribe a {
+  text-decoration: none;
+}
+
+hr {
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 0.5px solid #333;
 }
