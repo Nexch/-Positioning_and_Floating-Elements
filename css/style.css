@@ -279,3 +279,44 @@ main {
   padding:1.2rem 0;
   border-top: 1px solid #E2E2E2;
 }
+
+.news {
+
+}
+
+.main-footer {
+  width: 1120px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  left: 20%;
+}
+
+.main-footer h3 {
+  height: 10px;
+}
+
+.main-footer a{
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.fsize {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.line-language {
+  border-top: 1px solid #E2E2E2;
+}
+
+.subs {
+  border-left: 1px solid #E2E2E2;
+  padding-left: 10px;
+}
