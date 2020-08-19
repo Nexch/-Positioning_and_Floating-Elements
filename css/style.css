@@ -29,7 +29,7 @@ nav {
 }
 
 
-nav button {
+button {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 30px;
@@ -206,4 +206,50 @@ main {
 .container-caption p span{
   color: #888;
   font-size: 0.8rem;
+}
+
+.hyperlink-gray a {
+  color: #666;
+}
+
+.hyperlink-gray {
+  color: #666;
+}
+
+.bottom-comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-all-imgs {
+  position: relative;
+  left: 20%;
+}
+
+.container-imgs {
+  display: flex;
+  justify-content: space-between;
+  width: 800px
+}
+
+.container-imgs img {
+  width: 250px;
+  height: 150px;
+}
+
+.flex-columns {
+  width: 250px;
+}
+
+.container-all-imgs p {
+  margin-bottom: 0;
+}
+
+.container-all-imgs span {
+  color: #999;
+}
+
+.caption {
+  font-size: 0.625rem;
+  float: right;
 }
