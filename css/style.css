@@ -1,10 +1,16 @@
-*{
-
+.title-border{
+  border-top: 1px solid black;
+  font-size: 1rem;
 }
 
 .normal-font{
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
 }
 
 header {
@@ -48,7 +54,7 @@ main {
   margin-top: 100px;
 }
 .buttons_top{
-  margin-right: 60px;
+  margin-right:  60px;
 }
 
 .main_picture_box h1{
@@ -224,12 +230,21 @@ main {
 .container-all-imgs {
   position: relative;
   left: 20%;
+  margin-top:2.2rem;
+  display: flex;
+}
+
+.container-all-imgs h2{
+  width: 100%;
+  padding-top: 20px;
+  margin: 0 0 1rem 0;
 }
 
 .container-imgs {
   display: flex;
   justify-content: space-between;
-  width: 800px
+  width: 800px;
+  margin-bottom: 2rem;
 }
 
 .container-imgs img {
@@ -247,9 +262,20 @@ main {
 
 .container-all-imgs span {
   color: #999;
+  font-size: 0.75rem;
 }
 
 .caption {
   font-size: 0.625rem;
   float: right;
+}
+
+.container-popular{
+  margin-left: 17px;
+  width: 320px;
+}
+
+.aside-list li{
+  padding:1.2rem 0;
+  border-top: 1px solid #E2E2E2;
 }
