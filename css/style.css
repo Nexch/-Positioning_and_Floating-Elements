@@ -340,8 +340,27 @@ main {
 .subs {
   border-left: 1px solid #E2E2E2;
   padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  font-size:11px;
+  width: 100%;
+}
+
+.nav-footer{
+  position: relative;
+  left: 20%;
 }
 
 .footer-list{
   display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
+
+.footer-list li a{
+  text-decoration: none;
+  color: #666;
+}
+
