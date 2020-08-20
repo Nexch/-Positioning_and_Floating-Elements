@@ -13,10 +13,6 @@ ul{
   padding-left: 0;
 }
 
-header {
-    position: sticky;
-    margin: 0;
-}
 
 .sticky {
   position: fixed;
@@ -34,6 +30,13 @@ nav {
 
 }
 
+.container-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+  padding-left: 10%;
+}
 
 button {
   margin-top: 10px;
@@ -85,6 +88,11 @@ main {
 
 .flex {
   display: flex;
+  justify-content:space-between;
+}
+
+.share-icons {
+  transform:scale(1.5);
 }
 
 .Center {
