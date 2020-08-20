@@ -2,6 +2,7 @@
 .container-info h2,
 p {
   left: 23%;
+  margin-bottom: 0;
 }
 
 .clear {
@@ -58,6 +59,10 @@ nav {
   background-color: white;
 }
 
+nav img {
+  margin-right: 50%;
+}
+
 .offer {
   position: fixed;
   bottom: 0;
@@ -73,7 +78,7 @@ nav {
 .container-icons {
   justify-content: space-around;
   width: 15%;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 button {
@@ -101,7 +106,7 @@ main {
 }
 
 .buttons_top {
-  margin-right: 60px;
+  margin-right: 100px;
 }
 
 .main_picture_box h1 {
@@ -207,6 +212,7 @@ main {
   grid-template-columns: repeat(4, 16%);
   grid-template-rows: repeat(4, 150px);
   column-gap: 10px;
+  margin-top: 10px;
 }
 
 .floating img {
