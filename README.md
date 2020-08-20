@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Positioning and Floating Elements For NYT page
 
 > Project: Positioning and Floating Elements.
 
