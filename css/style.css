@@ -106,6 +106,7 @@ main {
 }
 
 .floating{
+  z-index: -1;
   position: relative;
   left: 23%;
   display: grid;
@@ -228,6 +229,7 @@ main {
 }
 
 .container-all-imgs {
+  z-index: -1;
   position: relative;
   left: 20%;
   margin-top:2.2rem;
@@ -355,7 +357,7 @@ footer{
 
 .footer-list{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 60%;
 }
 
