@@ -1,5 +1,10 @@
+* {
+  border: 1px solid red;
+}
+
 .p-relative {
   position: relative;
+  margin-right: 23%;
 }
 
 .hover-line:hover {
@@ -47,6 +52,19 @@ nav {
   background-color: white;
 }
 
+.offer {
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+
 .container-icons {
   justify-content: space-around;
   width: 15%;
@@ -59,6 +77,12 @@ button {
   border-style: none;
   color: white;
   border-radius: 5px;
+}
+
+.humburger {
+  color: black;
+  background-color: white;
+  border-style: none;
 }
 
 .nyt-image {
@@ -145,7 +169,7 @@ p {
   z-index: -1;
   left: 23%;
   display: grid;
-  grid-template-columns: repeat(4, 13%);
+  grid-template-columns: repeat(4, 16%);
   grid-template-rows: repeat(4, 150px);
   column-gap: 10px;
 }
