@@ -222,17 +222,19 @@ main {
   margin-right: 0;
 }
 
- .graph {
+.graph {
   display: grid;
   grid-template-columns: repeat(4, 18%);
   grid-template-rows: 0 18% 18%;
-  grid-template-areas: ". . . ."
-                       "text1 text2 text3 text4"
-                       "text5 text6 text7 text8";
+  grid-template-areas:
+    ". . . ."
+    "text1 text2 text3 text4"
+    "text5 text6 text7 text8";
   column-gap: 10px;
   row-gap: 150px;
   margin-top: 50px;
 }
+
 .graph > img {
   width: 100%;
   height: 100%;
@@ -314,12 +316,12 @@ iframe {
   margin: 0;
 }
 
-.floating img{
+.floating img {
   width: 100%;
 }
 
 .container-caption {
-  margin-top: 0px;
+  margin-top: 0;
   width: 60rem;
 }
 
