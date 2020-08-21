@@ -1,8 +1,12 @@
 
 .container-info h2,
 p {
-  left: 23%;
+  /* left: 23%; */
   margin-bottom: 0;
+}
+
+header{
+  width: 100vw;
 }
 
 .clear {
@@ -11,7 +15,10 @@ p {
 
 .p-relative {
   position: relative;
-  margin-right: 23%;
+}
+
+.p-absolute{
+  position: absolute;
 }
 
 .hover-line:hover {
@@ -63,22 +70,14 @@ nav img {
   margin-right: 50%;
 }
 
-.offer {
-  position: fixed;
-  bottom: 0;
-  background-color: #333;
-  color: white;
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-}
-
 .container-icons {
   justify-content: space-around;
   width: 15%;
   padding-left: 5%;
+}
+
+.container-icons h3{
+  text-transform: uppercase;
 }
 
 button {
@@ -199,79 +198,93 @@ main {
   background-color: #f6f6f6;
 }
 
-.container-info > p {
+.container-info{
+  margin-bottom: 20px;
+}
+
+.graph-title{
+  left: 23%;
+  margin: 0 0 50px 0;
+}
+
+.graph-title h2{
+  width: 60rem;
+  margin-left: 0;
+}
+
+.graph-title > p {
   width: 60rem;
   font-size: 0.8rem;
   color: #666;
+  margin-right: 0;
 }
 
-.floating {
-  z-index: -1;
+ .graph {
+  /* z-index: -1; */
+  position: absolute;
   left: 23%;
   display: grid;
-  grid-template-columns: repeat(4, 16%);
-  grid-template-rows: repeat(4, 150px);
-  column-gap: 10px;
-  margin-top: 10px;
+  grid-template-columns: repeat(4, 18%);
+  grid-template-rows: 0 18% 18%;
+  grid-template-areas: ". . . ."
+                       "text1 text2 text3 text4"
+                       "text5 text6 text7 text8";
+  column-gap: 10px; 
+  row-gap: 150px;
+  margin-top: 50px;
 }
-
-.floating img {
-  width: 60rem;
+.graph > img {
+  width: 100%;
+  height: 100%;
+  grid-row: 1/4;
+  grid-column: 1/5;
 }
 
 .text1 {
-  grid-column: 1/2;
-  grid-row: 2/3;
+  grid-area: text1;
 }
 
 .text2 {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  grid-area: text2;
 }
 
 .text3 {
-  grid-column: 3/4;
-  grid-row: 2/3;
+  grid-area: text3;
 }
 
 .text4 {
-  grid-column: 4/5;
-  grid-row: 2/3;
+  grid-area: text4;
 }
 
 .text5 {
-  grid-column: 1/2;
-  grid-row: 4/5;
+  grid-area: text5;
 }
 
 .text6 {
-  grid-column: 2/3;
-  grid-row: 4/5;
+  grid-area: text6;
 }
 
 .text7 {
-  grid-column: 3/4;
-  grid-row: 4/5;
+  grid-area: text7;
 }
 
 .text8 {
-  grid-column: 4/5;
-  grid-row: 4/5;
+  grid-area: text8;
 }
 
-.floating p {
+.graph p {
   text-align: left;
   font-size: 14px;
   line-height: 17px;
-  margin: 0;
 }
 
 .section p {
-  left: 23%;
+  /* left: 23%; */
 }
 
 .author2 {
-  left: 23%;
+  margin-top: 50px;
+  /* left: 23%; */
 }
 
 .author2 hr {
@@ -294,6 +307,18 @@ iframe {
 
 .video-text span {
   color: #888;
+}
+
+
+.floating {
+  z-index: -1;
+  /* left: 23%; */
+  width: 60rem;
+  margin: 0;
+}
+
+.floating img{
+  width: 100%;
 }
 
 .container-caption {
@@ -331,7 +356,7 @@ iframe {
 
 .container-all-imgs {
   z-index: -1;
-  left: 20%;
+  /* left: 20%; */
   margin-top: 2.2rem;
   display: flex;
 }
@@ -377,7 +402,7 @@ iframe {
 
 .container-footer {
   width: 1120px;
-  left: 20%;
+  /* left: 20%; */
   flex-direction: column;
   border-top: 2px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
@@ -429,11 +454,13 @@ iframe {
 }
 
 footer {
-  font-size: 11px;
+
 }
 
 .nav-footer {
-  left: 20%;
+  /* left: 20%; */
+  font-size: 11px;
+  margin: 0 0 20px 0;
 }
 
 .footer-list {
@@ -446,4 +473,17 @@ footer {
 
 .color-lblue {
   color: #326891;
+}
+
+.offer {
+
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
