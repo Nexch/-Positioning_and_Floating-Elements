@@ -1,5 +1,11 @@
-* {
-  border: 1px solid red;
+
+.container-info h2,
+p {
+  left: 23%;
+}
+
+.clear {
+  clear: right;
 }
 
 .p-relative {
@@ -62,7 +68,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-
 }
 
 .container-icons {
@@ -125,6 +130,7 @@ main {
 }
 
 .share-icons {
+  padding-right: 20px;
   transform: scale(1.5);
   z-index: -1;
 }
@@ -134,9 +140,10 @@ main {
 }
 
 .container-comments {
-  right: 18px;
+  right: 17.5px;
   bottom: 5px;
   font-size: 7px;
+  margin-right: 0;
 }
 
 .Center {
@@ -154,9 +161,37 @@ main {
   border: 0.5px solid #333;
 }
 
-.container-info h2,
-p {
-  left: 23%;
+.container-editors {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.editor-pick {
+  width: 400px;
+}
+
+.editor-pick h2 {
+  width: 70%;
+  border-bottom: 1px solid #999;
+  margin-left: 10px;
+}
+
+.aside-img img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.aside-img p {
+  width: 150px;
+  padding-right: 100px;
+}
+
+.aside-img:last-child {
+  background-color: #f6f6f6;
 }
 
 .container-info > p {
